@@ -1,0 +1,125 @@
+.actor-details-page {
+  background: #000000;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 20px 0 20px 0;
+}
+.container-acteur {
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px rgb(255 255 255);
+  padding: 20px 0 40px 0;
+}
+
+.actor-details {
+  display: flex;
+  color: #fff;
+  margin: auto auto 20px auto;
+  width: 1576px;
+  overflow: hidden;
+  padding: 20px 0 20px 0;
+}
+
+.actor-details img {
+  justify-content: flex-start;
+  width: 404px;
+  height: auto;
+  box-shadow: 10px 12px 17px #d41516;
+  border-radius: 10px;
+  margin-right: 64px;
+}
+
+.actor-info {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px #d41516;
+  padding: 20px 20px 40px 20px;
+}
+.actor-info h2 {
+  text-align: center;
+}
+
+.acteur-name h1 {
+  margin-bottom: 10px;
+  width: 1108px;
+  color: #f8ac17;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px #d41516;
+  padding: 20px 20px 40px 20px;
+}
+
+.actor-biography {
+  margin-bottom: 20px;
+}
+
+.actor-biography h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.actor-biography p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.actor-movies {
+  margin: 20px 0 10px 0;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  width: 1576px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px #d41516;
+}
+.actor-movies h2 {
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .actor-details {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .container-acteur{
+    box-shadow: none;
+  }
+  .actor-details img {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 250px;
+  }
+
+  .actor-info {
+    padding: 0;
+  }
+  .actor-biography p{
+    text-align: start;
+    padding: 20px;
+  }
+  .actor-movies h2 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  .actor-movies{
+    width: auto;
+    padding: 20px;
+  }
+  .carouselpetit .movie-carousel-container {
+    overflow-x: unset; 
+    padding: 0;
+  }
+  .acteur-name h1{
+    width: auto;
+    font-size: 23px;
+    padding: 10px 20px 10px 20px;
+  }
+  .cast-member{
+    width: 123px;
+  }
+}

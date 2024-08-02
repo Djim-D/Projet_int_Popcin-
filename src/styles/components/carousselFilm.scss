@@ -1,0 +1,62 @@
+
+.carouselpetit{
+.movie-carousel-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-carousel {
+    display: inline-flex;
+   
+  }
+  
+  .carousel-item img {
+    width: 100% !important;
+    height: 330px !important;
+  }
+  
+  .movie-card {
+    cursor: pointer;
+    display: inline-flex;
+    margin-right: 45px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 16px 12px 17px rgb(160, 160, 159);
+    transition: transform 0.2s;
+    width: auto; 
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-title {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  @media (max-width: 768px) {
+     .movie-card {
+      margin-right: 10px;
+    }
+    .carousel-item img {
+      width: 121px !important;
+      height: 180px !important;
+    }
+  }
+  
+}

@@ -1,0 +1,107 @@
+.bg-dark.text-white.py-4.footer-opaque {
+  background-color: black !important;
+  box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.footer {
+  background: black;
+  color: white;
+  padding: 20px 0;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1606px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-left {
+  flex-direction: column;
+}
+
+.footer-logo {
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.footer-center{
+    text-align: center;
+    margin-top: -5%;
+
+}
+.footer-menu {
+  font-size: 32px;
+  list-style: none;
+  text-align: center;
+  display: inline-flex;
+  gap: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  list-style: none;
+}
+
+.footer-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  margin: -60px;
+}
+
+.tmdb-logo {
+  width: 80%;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 4%;
+}
+
+@media (max-width: 768px) {
+  .container-footer {
+    display: flex;
+  }
+  
+  .footer-left img {
+    width: 132px;
+  }
+  .footer-left {
+    width: 56%;
+    align-items: flex-start;
+  }
+  .footer-left p{
+    font-size: 10px;
+  }
+  .footer-right{
+    margin:0;
+  }
+  .footer-right img{
+    margin-top: -27%;
+    width: 146px;
+  }
+  .footer-center{
+    margin: 0;
+  }
+  .footer-menu {
+    font-size: 16px;
+    align-items: center;
+    gap: 41px;
+  }
+  .footer-bottom p{
+    font-size: 14px;
+  }
+  
+}

@@ -1,0 +1,41 @@
+.container-fluid {
+  width: 90% !important;
+}
+.nav-item {
+  margin-right: 60px;
+  font-size: 22px;
+}
+nav {
+  background-color: black !important;
+  box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+}
+.navbar-dark.bg-dark.navbar-opaque {
+  background-color: #000000 !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 80px;
+  }
+
+  .navbar-brand p {
+    font-size: 1rem;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .nav-link {
+    display: block;
+    width: 100%;
+  }
+}

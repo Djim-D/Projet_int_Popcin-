@@ -1,0 +1,188 @@
+.movie-details-page {
+  background: #000000;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 20px 0 20px 0;
+}
+
+.movie-details {
+  padding: 50px;
+  display: flex;
+  color: #fff;
+  margin-bottom: 20px;
+  background: #000;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px rgb(255 255 255);
+  overflow: hidden;
+  justify-content: center;
+}
+
+.movie-details img {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow:  5px 5px 10px rgb(255, 255, 255);
+  margin-right: 20px;
+}
+
+.movie-info {
+  padding: 20px;
+}
+.play-icon{
+  color: white;
+  margin-right: 10px;
+}
+
+.texteapercu{
+  font-size: 32px;
+  font-family: 'Oswald';
+}
+.movie-info .font{
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.fonth1{
+  margin-bottom: 40px;
+  font-family: 'Oswald';
+  color: #F8AC17;
+  text-align: center;
+  font-size: 40px;
+}
+.movie-meta span {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.movie-rating {
+  width: 8%;
+}
+.btn-ba{
+  background-color: #F8AC17 !important;
+  padding: 15px !important;
+}
+
+
+.movie-cast {
+  margin-top: 20px;
+}
+
+.movie-cast h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+}
+
+.cast-list {
+  display: flex;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.fichefilmcarousel {
+  width: auto!important;
+}
+
+.cast-member {
+  margin-right: 10px;
+  text-align: center;
+  background: #F8AC14;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.cast-list img {
+  width: auto !important;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.cast-member p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.actor-name {
+  font-size: 14px;
+  color: black;
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+.actor-character {
+  font-size: 12px;
+  color: white;
+  margin: 0 0 5px 0;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  white-space: normal;
+  text-align: center;
+  font-weight: bold;
+}
+.video-container {
+  width: 100%;
+}
+
+.video-container iframe {
+  border-radius: 10px;
+  width: 100%;
+  height: 700px;
+}
+.titreannonce {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+}
+@media (max-width: 768px) {
+  .movie-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .fonth1{
+    font-size: 20px;
+  }
+
+  .movie-details img {
+    width: 250px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .font{
+    font-size: 12px !important;
+  }
+  .movie-info {
+    padding: 0;
+  }
+  .movie-rating{
+    width: 49px;
+  }
+  .movie-meta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movie-meta span {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .movie-info button {
+    width: 100%;
+  }
+  
+  .actor-character{
+    width: auto !important;
+  }
+}
